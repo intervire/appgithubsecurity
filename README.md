@@ -4,6 +4,9 @@ Security baseline for this repository:
 
 - `SECURITY.md`: how to report vulnerabilities privately
 - `.github/dependabot.yml`: weekly updates for pinned GitHub Actions
+- `.github/CODEOWNERS`: requires owner review for every change, including `.github/`
+- `.github/workflows/dependency-review.yml`: blocks pull requests that add dependencies with known moderate-or-worse vulnerabilities
+- `.github/workflows/scorecard.yml`: weekly OpenSSF Scorecard security score, reported under Security → Code scanning
 - `.github/workflows/codeql.yml`: CodeQL code scanning on pushes, pull requests, and a weekly schedule. Actions are pinned to commit SHAs and the token is least-privilege.
 
 ## Recommended repository settings
