@@ -8,6 +8,8 @@ Report vulnerabilities privately through GitHub:
 **Security → Advisories → Report a vulnerability** on this repository
 (GitHub private vulnerability reporting).
 
+If you can't use GitHub reporting, email **security@wecrew.in** instead.
+
 Please include:
 
 - A description of the issue and its impact
