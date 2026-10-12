@@ -1,4 +1,9 @@
 # Changes to these paths require review from the listed owners.
+#
+# There is currently one maintainer, so the ruleset in .github/rulesets/main.json
+# lets repository admins merge their own pull requests. Add a second owner here
+# (a user or an @org/team) and then remove that bypass.
 *                 @wecrewai26
 /.github/         @wecrewai26
 /SECURITY.md      @wecrewai26
+/LICENSE          @wecrewai26
